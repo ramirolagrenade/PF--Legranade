@@ -148,15 +148,6 @@ body {
         }
     }
 
-    .cajas {
-        width: 150px;
-        height: 150px;
-        display: flex;
-        border-radius: 5px;
-        flex-direction: row;
-        background-color: aliceblue;
-    }
-
     .cajas-texto {
         padding: 22px 22px;
         background-color: white;
@@ -176,6 +167,10 @@ body {
             font-size: 16px;
             margin-bottom: 12.8px;
         }
+    }
+    .c-t{
+        max-height: 120px;
+        opacity: 0.93;
     }
 
     .price {
@@ -200,11 +195,14 @@ body {
     }
 
     .sobre-nosotros {
-        border: solid red 3px;
+        border: solid blueviolet 3px;
         margin-top: 15%;
         margin-left: 10px;
         margin-right: 10px;
         padding: 10px;
+        p{
+            font-size: 25px;
+        }
     }
 
     .estrenoextra {

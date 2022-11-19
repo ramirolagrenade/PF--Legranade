@@ -7905,13 +7905,6 @@ body {
     @media screen and (max-width: 500px) {
       body .footerGa {
         margin-top: 80px; } }
-  body .cajas {
-    width: 150px;
-    height: 150px;
-    display: flex;
-    border-radius: 5px;
-    flex-direction: row;
-    background-color: aliceblue; }
   body .cajas-texto {
     padding: 22px 22px;
     background-color: white;
@@ -7925,6 +7918,9 @@ body {
     body .cajas-texto > p {
       font-size: 16px;
       margin-bottom: 12.8px; }
+  body .c-t {
+    max-height: 120px;
+    opacity: 0.93; }
   body .price {
     color: #2b982b; }
   body .estreno {
@@ -7939,11 +7935,13 @@ body {
     body .imgSize:hover {
       background-color: brown; }
   body .sobre-nosotros {
-    border: solid red 3px;
+    border: solid blueviolet 3px;
     margin-top: 15%;
     margin-left: 10px;
     margin-right: 10px;
     padding: 10px; }
+    body .sobre-nosotros p {
+      font-size: 25px; }
   body .estrenoextra {
     justify-content: center; }
   body .img-resumen {
