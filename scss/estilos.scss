@@ -3,8 +3,9 @@
 
 body {
     background: url(../Imagen/fondo1.jpg);
-    object-fit: cover;
-
+    
+    width: 100%;
+    height: 100%;
     @include mobile {
         background: url(../Imagen/fondo2.jpg);
     }
